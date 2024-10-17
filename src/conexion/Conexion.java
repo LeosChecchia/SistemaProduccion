@@ -13,7 +13,7 @@ public class Conexion {
         //String usuario = "root";  // Usuario de MySQL (cámbialo si es necesario)
         //String contrasena = "";   // Contraseña de MySQL
 
-        //Connection conexion = null;
+        //Connection conexion = null; 
 
         try {
             // Intentar establecer conexión
