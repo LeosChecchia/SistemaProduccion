@@ -39,11 +39,23 @@ public class FrmMenu extends javax.swing.JFrame {
         jMenuItem4 = new javax.swing.JMenuItem();
         jMenuItem5 = new javax.swing.JMenuItem();
         jMenu3 = new javax.swing.JMenu();
+        jMenuItem6 = new javax.swing.JMenuItem();
+        jMenuItem7 = new javax.swing.JMenuItem();
         jMenu4 = new javax.swing.JMenu();
+        jMenuItem8 = new javax.swing.JMenuItem();
+        jMenuItem9 = new javax.swing.JMenuItem();
         jMenu5 = new javax.swing.JMenu();
+        jMenuItem10 = new javax.swing.JMenuItem();
+        jMenuItem11 = new javax.swing.JMenuItem();
         jMenu6 = new javax.swing.JMenu();
+        jMenuItem12 = new javax.swing.JMenuItem();
+        jMenuItem13 = new javax.swing.JMenuItem();
+        jMenuItem14 = new javax.swing.JMenuItem();
+        jMenuItem15 = new javax.swing.JMenuItem();
         jMenu7 = new javax.swing.JMenu();
+        jMenuItem16 = new javax.swing.JMenuItem();
         jMenu8 = new javax.swing.JMenu();
+        jMenuItem17 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -77,32 +89,84 @@ public class FrmMenu extends javax.swing.JFrame {
         jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cliente.png"))); // NOI18N
         jMenu3.setText("Cliente");
         jMenu3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+
+        jMenuItem6.setText("Nuevo Cliente");
+        jMenuItem6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem6ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem6);
+
+        jMenuItem7.setText("Gestionar Clientes");
+        jMenu3.add(jMenuItem7);
+
         jMenuBar1.add(jMenu3);
 
         jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/categorias.png"))); // NOI18N
         jMenu4.setText("Categoría");
         jMenu4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+
+        jMenuItem8.setText("Nueva Categoria");
+        jMenu4.add(jMenuItem8);
+
+        jMenuItem9.setText("Gestionar Categoria");
+        jMenu4.add(jMenuItem9);
+
         jMenuBar1.add(jMenu4);
 
         jMenu5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/carrito.png"))); // NOI18N
         jMenu5.setText("Facturar");
         jMenu5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+
+        jMenuItem10.setText("Nueva Venta");
+        jMenuItem10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem10ActionPerformed(evt);
+            }
+        });
+        jMenu5.add(jMenuItem10);
+
+        jMenuItem11.setText("Gestionar Ventas");
+        jMenu5.add(jMenuItem11);
+
         jMenuBar1.add(jMenu5);
 
         jMenu6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/reportes.png"))); // NOI18N
         jMenu6.setText("Reportes");
         jMenu6.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+
+        jMenuItem12.setText("Reportes Clientes");
+        jMenu6.add(jMenuItem12);
+
+        jMenuItem13.setText("Reportes Categorías");
+        jMenu6.add(jMenuItem13);
+
+        jMenuItem14.setText("Reportes Productos");
+        jMenu6.add(jMenuItem14);
+
+        jMenuItem15.setText("Reportes Ventas");
+        jMenu6.add(jMenuItem15);
+
         jMenuBar1.add(jMenu6);
 
         jMenu7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/historial1.png"))); // NOI18N
         jMenu7.setText("Historial");
         jMenu7.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+
+        jMenuItem16.setText("Ver Historial");
+        jMenu7.add(jMenuItem16);
+
         jMenuBar1.add(jMenu7);
 
         jMenu8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cerrar-sesion.png"))); // NOI18N
         jMenu8.setText("Cerrar Sesión");
         jMenu8.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jMenu8.setPreferredSize(new java.awt.Dimension(150, 50));
+
+        jMenuItem17.setText("Cerrar Sesión");
+        jMenu8.add(jMenuItem17);
+
         jMenuBar1.add(jMenu8);
 
         setJMenuBar(jMenuBar1);
@@ -120,6 +184,14 @@ public class FrmMenu extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jMenuItem6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuItem6ActionPerformed
+
+    private void jMenuItem10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuItem10ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -167,9 +239,21 @@ public class FrmMenu extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu8;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JMenuItem jMenuItem10;
+    private javax.swing.JMenuItem jMenuItem11;
+    private javax.swing.JMenuItem jMenuItem12;
+    private javax.swing.JMenuItem jMenuItem13;
+    private javax.swing.JMenuItem jMenuItem14;
+    private javax.swing.JMenuItem jMenuItem15;
+    private javax.swing.JMenuItem jMenuItem16;
+    private javax.swing.JMenuItem jMenuItem17;
     private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JMenuItem jMenuItem5;
+    private javax.swing.JMenuItem jMenuItem6;
+    private javax.swing.JMenuItem jMenuItem7;
+    private javax.swing.JMenuItem jMenuItem8;
+    private javax.swing.JMenuItem jMenuItem9;
     // End of variables declaration//GEN-END:variables
 }

@@ -250,6 +250,10 @@ public class FrmLogin extends javax.swing.JFrame {
 
             if (controlUsuario.loginUser(usuario)) {
                 //JOptionPane.showMessageDialog(null, "Login Correcto...");
+                FrmMenu menu = new FrmMenu();
+                menu.setVisible(true);
+                this.dispose();
+                        
             } else {
                 JOptionPane.showMessageDialog(null, "Usuario o Calve Incorrectos");
             }
