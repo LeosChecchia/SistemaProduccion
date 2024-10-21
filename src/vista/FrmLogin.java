@@ -249,7 +249,7 @@ public class FrmLogin extends javax.swing.JFrame {
             usuario.setPassword(txt_password.getText().trim());
 
             if (controlUsuario.loginUser(usuario)) {
-                JOptionPane.showMessageDialog(null, "Login Correcto...");
+                //JOptionPane.showMessageDialog(null, "Login Correcto...");
             } else {
                 JOptionPane.showMessageDialog(null, "Usuario o Calve Incorrectos");
             }
