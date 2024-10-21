@@ -25,13 +25,47 @@ public class InterCategoria extends javax.swing.JInternalFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        txt_descripción = new javax.swing.JTextField();
+        jLabel_wallpaper = new javax.swing.JLabel();
+
         setClosable(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("Nueva Categoría");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("Descripción categoría:");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 50, -1, -1));
+
+        txt_descripción.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        txt_descripción.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt_descripciónActionPerformed(evt);
+            }
+        });
+        getContentPane().add(txt_descripción, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 50, 150, 20));
+
+        jLabel_wallpaper.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/fondo3.jpg"))); // NOI18N
+        getContentPane().add(jLabel_wallpaper, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 390, 160));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void txt_descripciónActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_descripciónActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txt_descripciónActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel_wallpaper;
+    private javax.swing.JTextField txt_descripción;
     // End of variables declaration//GEN-END:variables
 }
