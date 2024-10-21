@@ -15,12 +15,12 @@
             </Property>
           </Properties>
           <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem_nuevo_usuario">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Nuevo Usuario"/>
               </Properties>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem2">
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem_gestionar_usuario">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Gestionar Usuario"/>
               </Properties>
@@ -38,17 +38,17 @@
             </Property>
           </Properties>
           <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem3">
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem_nuevo_menu">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Nuevo Producto"/>
               </Properties>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem4">
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem_gestionar_producto">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Gestionar Producto"/>
               </Properties>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem5">
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem_actualizar_stock">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Actualizar Stock"/>
               </Properties>
@@ -66,15 +66,15 @@
             </Property>
           </Properties>
           <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem6">
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem_nuevo_cliente">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Nuevo Cliente"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem6ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem_nuevo_clienteActionPerformed"/>
               </Events>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem7">
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem_gestionar_clientes">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Gestionar Clientes"/>
               </Properties>
@@ -92,12 +92,12 @@
             </Property>
           </Properties>
           <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem8">
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem_nueva_categoria">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Nueva Categoria"/>
               </Properties>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem9">
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem_gestionar_categoria">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Gestionar Categoria"/>
               </Properties>
@@ -115,15 +115,15 @@
             </Property>
           </Properties>
           <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem10">
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem_nueva_venta">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Nueva Venta"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem10ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem_nueva_ventaActionPerformed"/>
               </Events>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem11">
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem_gestionar_ventas">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Gestionar Ventas"/>
               </Properties>
@@ -141,29 +141,29 @@
             </Property>
           </Properties>
           <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem12">
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem_reportes_clientes">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Reportes Clientes"/>
               </Properties>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem13">
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem_reportes_categorias">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Reportes Categor&#xed;as"/>
               </Properties>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem14">
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem_reportes_productos">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Reportes Productos"/>
               </Properties>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem15">
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem_reportes_ventas">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Reportes Ventas"/>
               </Properties>
             </MenuItem>
           </SubComponents>
         </Menu>
-        <Menu class="javax.swing.JMenu" name="jMenu7">
+        <Menu class="javax.swing.JMenu" name="jMenu_ver_historial">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/img/historial1.png"/>
@@ -195,7 +195,7 @@
             </Property>
           </Properties>
           <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem17">
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem_cerrar_sesion">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Cerrar Sesi&#xf3;n"/>
               </Properties>
